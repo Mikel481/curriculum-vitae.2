@@ -33,3 +33,30 @@ ul {
     height: 5rem;
     border-radius: 3.125rem;
 }
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 2 / 6;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 6 / 2;
+    grid-row: 6 / 2;
+  }
+  .three {
+    grid-column: 5 / 3;
+    grid-row: 5 / 8;
+  }
