@@ -33,3 +33,16 @@ ul {
     height: 5rem;
     border-radius: 3.125rem;
 }
+
+main {
+    display: flex;
+    width: 100%;
+
+}
+
+.datos {
+    width: 50%;
+    margin-left: 2%;
+/*     border: 1px solid black;
+ */
+}
